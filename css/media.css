@@ -1,0 +1,22 @@
+
+@media(max-width:1025){
+    .navbar_one ul {
+        justify-content: end !important;
+        margin-left: 22% !important;
+        font-size: 10px;
+    }
+}
+@media(max-width:769){
+    .navbar_one ul {
+        /* justify-content: end !important; */
+        margin-left: 40%;
+        font-size: 16px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dot_span {
+        display: none;
+    }
+}
